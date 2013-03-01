@@ -14,7 +14,7 @@
     "designerId": "7b931656-b724-46f4-baaf-f52932faab74",
     "cn": [
         {
-            "type": "container",
+            "type": "panel",
             "reference": {
                 "name": "items",
                 "type": "array"
@@ -23,7 +23,8 @@
             "userConfig": {
                 "title": "Tab 1",
                 "iconCls": "info",
-                "designer|userClassName": "MyContainer"
+                "designer|userClassName": "MyPanel",
+                "style": "background-color: #1e1e1e"
             },
             "designerId": "d5a32cf8-b250-4628-8828-7b75fa8a793d",
             "cn": [
@@ -36,9 +37,188 @@
                     "codeClass": null,
                     "userConfig": {
                         "designer|userClassName": "MyTitleBar",
-                        "docked": "top"
+                        "docked": "top",
+                        "style": "background-color: #4b981a;",
+                        "title": "Starbugs"
                     },
                     "designerId": "a3360a2e-e24a-48af-ae4f-1bd069dba49e"
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel1",
+                        "height": 64,
+                        "margin": "10 50 0 50",
+                        "layout": "hbox"
+                    },
+                    "designerId": "4cae652b-134f-4a6f-81d8-bc920445fcc0",
+                    "cn": [
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton",
+                                "designer|displayName": "My Drinks",
+                                "height": 64,
+                                "margin": "0 10 0 0",
+                                "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/my_drinks.png); background-size: contain; background-repeat: no-repeat;",
+                                "width": 64,
+                                "text": null
+                            },
+                            "designerId": "551da1f1-fa73-413c-86af-c58b56ba27d5"
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton",
+                                "designer|displayName": "My Drinks",
+                                "height": 64,
+                                "margin": "0 10 0 0",
+                                "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/favorites.png); background-size: contain; background-repeat: no-repeat;",
+                                "width": 64,
+                                "text": null
+                            },
+                            "designerId": "696d5908-278f-4745-8ff3-8a9866218edc"
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton",
+                                "designer|displayName": "My Drinks",
+                                "height": 64,
+                                "margin": "0 10 0 0",
+                                "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/coffees.png); background-size: contain; background-repeat: no-repeat;",
+                                "width": 64,
+                                "text": null
+                            },
+                            "designerId": "7a67f4b8-4691-4004-9863-a7f54b35af43"
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel1",
+                        "height": 64,
+                        "margin": "10 50 0 50",
+                        "layout": "hbox"
+                    },
+                    "designerId": "69d3867b-5a96-4ec5-ae9b-082dcd7a3b70",
+                    "cn": [
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton",
+                                "designer|displayName": "My Drinks",
+                                "height": 64,
+                                "margin": "0 10 0 0",
+                                "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/food.png); background-size: contain; background-repeat: no-repeat;",
+                                "width": 64,
+                                "text": null
+                            },
+                            "designerId": "659a7135-1f07-4de3-a0b6-2f711f004fe2"
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton",
+                                "designer|displayName": "My Drinks",
+                                "height": 64,
+                                "margin": "0 10 0 0",
+                                "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/drinks.png); background-size: contain; background-repeat: no-repeat;",
+                                "width": 64,
+                                "text": null
+                            },
+                            "designerId": "65ad2217-6173-4b42-a532-a137d8c86f7b"
+                        },
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton",
+                                "designer|displayName": "My Drinks",
+                                "height": 64,
+                                "margin": "0 10 0 0",
+                                "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/settings.png); background-size: contain; background-repeat: no-repeat;",
+                                "width": 64,
+                                "text": null
+                            },
+                            "designerId": "d4ac8dd7-3999-4a2f-87e9-6a0ea74415c2"
+                        }
+                    ]
+                },
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyPanel1",
+                        "height": 64,
+                        "margin": "10 50 0 50",
+                        "layout": "hbox"
+                    },
+                    "designerId": "d800f405-c6a1-440b-aea3-7cd5c1490ebb",
+                    "cn": [
+                        {
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyButton",
+                                "designer|displayName": "My Drinks",
+                                "height": 64,
+                                "margin": "0 10 0 0",
+                                "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/help.png); background-size: contain; background-repeat: no-repeat;",
+                                "width": 64,
+                                "text": null
+                            },
+                            "designerId": "ef7b8189-2e8a-4406-84b5-4dacb4e36201"
+                        }
+                    ]
                 }
             ]
         },

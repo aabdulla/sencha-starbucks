@@ -3,7 +3,7 @@
     "settings": {
         "urlPrefix": "",
         "spacesToIndent": 4,
-        "exportPath": "",
+        "exportPath": "/Users/anthonyabdulla/sencha_starbucks/publish",
         "sdkPath": "",
         "lineEnding": "LF",
         "genTimestamps": false,

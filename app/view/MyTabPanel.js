@@ -20,13 +20,95 @@ Ext.define('MyApp.view.MyTabPanel', {
         fullscreen: true,
         items: [
             {
-                xtype: 'container',
+                xtype: 'panel',
                 title: 'Tab 1',
                 iconCls: 'info',
+                style: 'background-color: #1e1e1e',
                 items: [
                     {
                         xtype: 'titlebar',
-                        docked: 'top'
+                        docked: 'top',
+                        style: 'background-color: #4b981a;',
+                        title: 'Starbugs'
+                    },
+                    {
+                        xtype: 'panel',
+                        height: 64,
+                        margin: '10 50 0 50',
+                        layout: {
+                            type: 'hbox'
+                        },
+                        items: [
+                            {
+                                xtype: 'button',
+                                height: 64,
+                                margin: '0 10 0 0',
+                                style: 'border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/my_drinks.png); background-size: contain; background-repeat: no-repeat;',
+                                width: 64
+                            },
+                            {
+                                xtype: 'button',
+                                height: 64,
+                                margin: '0 10 0 0',
+                                style: 'border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/favorites.png); background-size: contain; background-repeat: no-repeat;',
+                                width: 64
+                            },
+                            {
+                                xtype: 'button',
+                                height: 64,
+                                margin: '0 10 0 0',
+                                style: 'border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/coffees.png); background-size: contain; background-repeat: no-repeat;',
+                                width: 64
+                            }
+                        ]
+                    },
+                    {
+                        xtype: 'panel',
+                        height: 64,
+                        margin: '10 50 0 50',
+                        layout: {
+                            type: 'hbox'
+                        },
+                        items: [
+                            {
+                                xtype: 'button',
+                                height: 64,
+                                margin: '0 10 0 0',
+                                style: 'border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/food.png); background-size: contain; background-repeat: no-repeat;',
+                                width: 64
+                            },
+                            {
+                                xtype: 'button',
+                                height: 64,
+                                margin: '0 10 0 0',
+                                style: 'border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/drinks.png); background-size: contain; background-repeat: no-repeat;',
+                                width: 64
+                            },
+                            {
+                                xtype: 'button',
+                                height: 64,
+                                margin: '0 10 0 0',
+                                style: 'border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/settings.png); background-size: contain; background-repeat: no-repeat;',
+                                width: 64
+                            }
+                        ]
+                    },
+                    {
+                        xtype: 'panel',
+                        height: 64,
+                        margin: '10 50 0 50',
+                        layout: {
+                            type: 'hbox'
+                        },
+                        items: [
+                            {
+                                xtype: 'button',
+                                height: 64,
+                                margin: '0 10 0 0',
+                                style: 'border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/help.png); background-size: contain; background-repeat: no-repeat;',
+                                width: 64
+                            }
+                        ]
                     }
                 ]
             },
