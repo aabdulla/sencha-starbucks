@@ -244,11 +244,104 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Tab 3",
+                "title": "Stores",
                 "iconCls": "info",
-                "designer|userClassName": "MyContainer2"
+                "designer|userClassName": "MyContainer2",
+                "layout": "vbox"
             },
-            "designerId": "d21b00b6-5bb8-4d2a-9d02-c732dde9b0ae"
+            "designerId": "d21b00b6-5bb8-4d2a-9d02-c732dde9b0ae",
+            "cn": [
+                {
+                    "type": "titlebar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTitleBar1",
+                        "docked": "top"
+                    },
+                    "designerId": "8fb33df1-0a30-4193-8446-2569a5749f16"
+                },
+                {
+                    "type": "map",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyMap",
+                        "docked": null,
+                        "height": 378,
+                        "itemId": "mymap",
+                        "ui": "dark",
+                        "layout": "fit",
+                        "useCurrentLocation": true
+                    },
+                    "designerId": "e5f703d0-4814-4077-a4a1-77e8e833f530",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onMymapMaprender",
+                                "fn": "onMymapMaprender",
+                                "implHandler": [
+                                    "gmap.setZoom(15);",
+                                    "",
+                                    "setTimeout(function() {",
+                                    "",
+                                    "    var myLocation = new google.maps.Marker({",
+                                    "        position: gmap.getCenter(),",
+                                    "        title: \"My Location\",",
+                                    "        map: gmap",
+                                    "    });",
+                                    "",
+                                    "    var places = new google.maps.places.PlacesService(gmap);",
+                                    "",
+                                    "    var request = {",
+                                    "        location: gmap.getCenter(),",
+                                    "        name: \"starbucks\",",
+                                    "        radius: 10000,",
+                                    "        types: ['cafe']",
+                                    "    };",
+                                    "",
+                                    "    places.nearbySearch(request, function(results, status) {",
+                                    "        console.log(status);",
+                                    "        if (status == google.maps.places.PlacesServiceStatus.OK) {",
+                                    "            for (var i = 0; i < results.length; i++) {",
+                                    "                var place = results[i];",
+                                    "                console.log(place);",
+                                    "                var marker = new google.maps.Marker({",
+                                    "                    position: place.geometry.location,",
+                                    "                    title: place.name,",
+                                    "                    //icon: place.icon,",
+                                    "                    icon: \"http://maps.google.com/intl/en_us/mapfiles/ms/micons/green.png\",",
+                                    "                    map: gmap",
+                                    "                }",
+                                    "                );",
+                                    "            }",
+                                    "        }",
+                                    "    });",
+                                    "",
+                                    "}, 100);",
+                                    "",
+                                    ""
+                                ],
+                                "name": "maprender"
+                            },
+                            "designerId": "dbe3ae05-13df-4f82-884b-d20b3b024550"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "type": "tabbar",

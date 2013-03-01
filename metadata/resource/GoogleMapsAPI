@@ -1,0 +1,13 @@
+{
+    "type": "googlemapsjsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://maps.google.com/maps/api/js?sensor=true&libraries=places "
+    },
+    "id": "ExtBox1-ext-gen6542",
+    "designerId": "c12c37ce-b119-4a95-a2be-275abbbd91a0"
+}

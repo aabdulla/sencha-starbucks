@@ -119,13 +119,83 @@ Ext.define('MyApp.view.MyTabPanel', {
             },
             {
                 xtype: 'container',
-                title: 'Tab 3',
-                iconCls: 'info'
+                title: 'Stores',
+                iconCls: 'info',
+                layout: {
+                    type: 'vbox'
+                },
+                items: [
+                    {
+                        xtype: 'titlebar',
+                        docked: 'top'
+                    },
+                    {
+                        xtype: 'map',
+                        flex: 1,
+                        height: 378,
+                        itemId: 'mymap',
+                        ui: 'dark',
+                        layout: {
+                            type: 'fit'
+                        },
+                        useCurrentLocation: true
+                    }
+                ]
             }
         ],
         tabBar: {
             docked: 'bottom'
-        }
+        },
+        listeners: [
+            {
+                fn: 'onMymapMaprender',
+                event: 'maprender',
+                delegate: '#mymap'
+            }
+        ]
+    },
+
+    onMymapMaprender: function(map, gmap, options) {
+        gmap.setZoom(15);
+
+        setTimeout(function() {
+
+            var myLocation = new google.maps.Marker({
+                position: gmap.getCenter(),
+                title: "My Location",
+                map: gmap
+            });
+
+            var places = new google.maps.places.PlacesService(gmap);
+
+            var request = {
+                location: gmap.getCenter(),
+                name: "starbucks",
+                radius: 10000,
+                types: ['cafe']
+            };
+
+            places.nearbySearch(request, function(results, status) {
+                console.log(status);
+                if (status == google.maps.places.PlacesServiceStatus.OK) {
+                    for (var i = 0; i < results.length; i++) {
+                        var place = results[i];
+                        console.log(place);
+                        var marker = new google.maps.Marker({
+                            position: place.geometry.location,
+                            title: place.name,
+                            //icon: place.icon,
+                            icon: "http://maps.google.com/intl/en_us/mapfiles/ms/micons/green.png",
+                            map: gmap
+                        }
+                        );
+                    }
+                }
+            });
+
+        }, 100);
+
+
     }
 
 });
