@@ -1,0 +1,87 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyTabPanel",
+        "designer|initialView": true,
+        "fullscreen": true
+    },
+    "id": "ExtBox1-ext-gen2148",
+    "designerId": "7b931656-b724-46f4-baaf-f52932faab74",
+    "cn": [
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Tab 1",
+                "iconCls": "info",
+                "designer|userClassName": "MyContainer"
+            },
+            "designerId": "d5a32cf8-b250-4628-8828-7b75fa8a793d",
+            "cn": [
+                {
+                    "type": "titlebar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTitleBar",
+                        "docked": "top"
+                    },
+                    "designerId": "a3360a2e-e24a-48af-ae4f-1bd069dba49e"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Tab 2",
+                "iconCls": "info",
+                "designer|userClassName": "MyContainer1"
+            },
+            "designerId": "f762724d-c197-4a24-b3a5-d48f719235f8"
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Tab 3",
+                "iconCls": "info",
+                "designer|userClassName": "MyContainer2"
+            },
+            "designerId": "d21b00b6-5bb8-4d2a-9d02-c732dde9b0ae"
+        },
+        {
+            "type": "tabbar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabBar",
+                "docked": "bottom"
+            },
+            "designerId": "dfb53346-8672-4d8b-a45c-2f35f5e0b784"
+        }
+    ]
+}

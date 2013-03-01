@@ -1,0 +1,47 @@
+{
+    "name": "sencha_starbucks",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 678,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "touch21",
+    "topInstanceFileMap": {
+        "0ecd151f-0592-438c-8ee1-00d47795192f": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "7b931656-b724-46f4-baaf-f52932faab74": {
+            "paths": [
+                "metadata/view/MyTabPanel",
+                "app/view/override/MyTabPanel.js",
+                "app/view/MyTabPanel.js"
+            ],
+            "className": "MyTabPanel"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "7b931656-b724-46f4-baaf-f52932faab74"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "0ecd151f-0592-438c-8ee1-00d47795192f"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
