@@ -1,0 +1,316 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyPanel",
+        "designer|initialView": true,
+        "style": "background-color: #1e1e1e",
+        "layout": "vbox"
+    },
+    "id": "ExtBox1-ext-gen12242",
+    "designerId": "474e44ca-f8c4-4ada-a942-78a35183889c",
+    "cn": [
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabPanel",
+                "docked": "bottom"
+            },
+            "designerId": "8b777439-bfc3-43d1-b31c-0ee8cb4de4ee",
+            "cn": [
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Home",
+                        "designer|userClassName": "MyContainer",
+                        "designer|displayName": "Home"
+                    },
+                    "designerId": "502a8f1f-3c84-44ff-b66f-a21bd3099ab5"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Tab 2",
+                        "designer|userClassName": "MyContainer1"
+                    },
+                    "designerId": "85ee8f68-a335-4d40-aca8-6b23637b6b93"
+                },
+                {
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Tab 3",
+                        "designer|userClassName": "MyContainer2"
+                    },
+                    "designerId": "1165f27d-79c5-4308-8cdf-7f83c3c037ea"
+                }
+            ]
+        },
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel1"
+            },
+            "designerId": "270ee223-2aea-4965-a64e-b2c2bf397a5f",
+            "cn": [
+                {
+                    "type": "titlebar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTitleBar",
+                        "docked": "top",
+                        "title": "Starbucks"
+                    },
+                    "designerId": "e85fa633-1c7a-4d22-8298-2f1bdc52a58c"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer3",
+                "height": 64,
+                "margin": "10 50 0 50",
+                "width": 212,
+                "layout": "hbox"
+            },
+            "designerId": "09748ee2-8c37-467e-a569-5455f8fa9d56",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": "Coffees",
+                        "border": null,
+                        "height": 64,
+                        "margin": "0 10 0 0",
+                        "padding": "",
+                        "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/my_drinks.png); background-size: contain; background-repeat: no-repeat;",
+                        "width": 64,
+                        "icon": "",
+                        "iconAlign": null,
+                        "text": ""
+                    },
+                    "designerId": "75134cda-d946-4685-b456-489b7d1cadec"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": "Favorites",
+                        "border": null,
+                        "height": 64,
+                        "margin": null,
+                        "padding": "",
+                        "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/favorites.png); background-size: contain; background-repeat: no-repeat;",
+                        "width": 64,
+                        "icon": "",
+                        "iconAlign": null,
+                        "text": ""
+                    },
+                    "designerId": "f8c9f0dc-a9a5-4d88-ac40-c147aadb95f4"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": "Coffees",
+                        "border": null,
+                        "height": 64,
+                        "margin": "0 0 0 10",
+                        "padding": "",
+                        "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/coffees.png); background-size: contain; background-repeat: no-repeat;",
+                        "width": 64,
+                        "icon": "",
+                        "iconAlign": null,
+                        "text": ""
+                    },
+                    "designerId": "1053e7e9-bcb9-45f5-9a0c-f38419079aec"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer3",
+                "height": 64,
+                "margin": "10 50 0 50",
+                "width": 212,
+                "layout": "hbox"
+            },
+            "designerId": "7d819e19-d5cd-4448-b01a-be2218b2795b",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": "Food",
+                        "border": null,
+                        "height": 64,
+                        "margin": "0 10 0 0",
+                        "padding": "",
+                        "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/food.png); background-size: contain; background-repeat: no-repeat;",
+                        "width": 64,
+                        "icon": "",
+                        "iconAlign": null,
+                        "text": ""
+                    },
+                    "designerId": "00e2d3fb-2eb7-4f01-a3c6-74a2af426811"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": "Drinks",
+                        "border": null,
+                        "height": 64,
+                        "margin": null,
+                        "padding": "",
+                        "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/drinks.png); background-size: contain; background-repeat: no-repeat;",
+                        "width": 64,
+                        "icon": "",
+                        "iconAlign": null,
+                        "text": ""
+                    },
+                    "designerId": "4562fee2-e546-4f89-af9a-4ddfc76913d1"
+                },
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": "Settings",
+                        "border": null,
+                        "height": 64,
+                        "margin": "0 0 0 10",
+                        "padding": "",
+                        "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/settings.png); background-size: contain; background-repeat: no-repeat;",
+                        "width": 64,
+                        "icon": "",
+                        "iconAlign": null,
+                        "text": ""
+                    },
+                    "designerId": "72e1c5db-88ec-4ef8-b445-4a7cae9037d8"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer3",
+                "height": 64,
+                "margin": "10 50 0 50",
+                "width": 64,
+                "layout": "hbox"
+            },
+            "designerId": "ffcd0d5c-5502-43bf-a790-fe49b52e5614",
+            "cn": [
+                {
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "designer|userClassName": "MyButton1",
+                        "designer|displayName": "Help",
+                        "border": null,
+                        "height": 64,
+                        "margin": null,
+                        "padding": "",
+                        "style": "border-radius: 0px; border: 1px solid transparent; background-image: url(images/icons/main/help.png); background-size: contain; background-repeat: no-repeat;",
+                        "width": "64px",
+                        "icon": "",
+                        "iconAlign": null,
+                        "text": ""
+                    },
+                    "designerId": "61aae651-48a7-4133-a8f1-1c8be2f656b6"
+                }
+            ]
+        }
+    ]
+}
