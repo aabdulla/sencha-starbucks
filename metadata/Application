@@ -9,6 +9,9 @@
         "views": [
             "MyTabPanel"
         ],
+        "icon": [
+            "57: \"images/icons/starbucks.png\""
+        ],
         "name": "MyApp"
     },
     "id": "ExtBox1-ext-gen1763",

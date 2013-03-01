@@ -21,8 +21,8 @@ Ext.define('MyApp.view.MyTabPanel', {
         items: [
             {
                 xtype: 'panel',
-                title: 'Tab 1',
-                iconCls: 'info',
+                title: 'Home',
+                iconCls: 'home',
                 style: 'background-color: #1e1e1e',
                 items: [
                     {
@@ -120,7 +120,7 @@ Ext.define('MyApp.view.MyTabPanel', {
             {
                 xtype: 'container',
                 title: 'Stores',
-                iconCls: 'info',
+                iconCls: 'maps',
                 layout: {
                     type: 'vbox'
                 },

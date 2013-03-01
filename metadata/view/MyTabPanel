@@ -21,8 +21,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "title": "Tab 1",
-                "iconCls": "info",
+                "title": "Home",
+                "iconCls": "home",
                 "designer|userClassName": "MyPanel",
                 "style": "background-color: #1e1e1e"
             },
@@ -245,7 +245,7 @@
             "codeClass": null,
             "userConfig": {
                 "title": "Stores",
-                "iconCls": "info",
+                "iconCls": "maps",
                 "designer|userClassName": "MyContainer2",
                 "layout": "vbox"
             },
