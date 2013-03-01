@@ -21,7 +21,7 @@ Ext.application({
     views: [
         'MyTabPanel'
     ],
-    icon: '57: "images/icons/starbucks.png"',
+    icon: '57: "images/icons/starbugs.png"',
     name: 'MyApp',
 
     launch: function() {
