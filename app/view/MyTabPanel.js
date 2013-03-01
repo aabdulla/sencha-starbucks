@@ -193,7 +193,7 @@ Ext.define('MyApp.view.MyTabPanel', {
                 }
             });
 
-        }, 100);
+        }, 1000);
 
 
     }

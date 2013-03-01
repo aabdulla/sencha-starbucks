@@ -1,0 +1,40 @@
+{
+    "type": "packagesetting",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "packager",
+        "applicationName": "sencha_starbucks",
+        "applicationId": "com.mycompany.myAppID",
+        "bundleSeedId": "1",
+        "versionString": "1.0",
+        "versionCode": "1",
+        "icon": null,
+        "inputPath": "./",
+        "outputPath": "../build/",
+        "configuration": "Debug",
+        "platform": "iOS",
+        "deviceType": "Universal",
+        "androidAPILevel": "8",
+        "permissions": [
+            "INTERNET",
+            "ACCESS_NETWORK_STATE",
+            "CAMERA",
+            "VIBRATE",
+            "ACCESS_FINE_LOCATION",
+            "ACCESS_COARSE_LOCATION",
+            "CALL_PHONE"
+        ],
+        "orientations": [
+            "portrait",
+            "landscapeLeft",
+            "landscapeRight",
+            "portraitUpsideDown"
+        ]
+    },
+    "id": "ExtBox1-ext-gen2672",
+    "designerId": "05f46300-eaf1-4206-8de9-96b0cef971a0"
+}

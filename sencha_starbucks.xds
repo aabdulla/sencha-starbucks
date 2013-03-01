@@ -34,6 +34,14 @@
                 "metadata/resource/GoogleMapsAPI"
             ],
             "className": "GoogleMapsAPI"
+        },
+        "05f46300-eaf1-4206-8de9-96b0cef971a0": {
+            "paths": [
+                "metadata/resource/packager",
+                "",
+                "packager.json"
+            ],
+            "className": "packager"
         }
     },
     "viewOrderMap": {
@@ -45,7 +53,8 @@
         "model": [],
         "resource": [
             "0ecd151f-0592-438c-8ee1-00d47795192f",
-            "c12c37ce-b119-4a95-a2be-275abbbd91a0"
+            "c12c37ce-b119-4a95-a2be-275abbbd91a0",
+            "05f46300-eaf1-4206-8de9-96b0cef971a0"
         ],
         "app": [
             "application"
